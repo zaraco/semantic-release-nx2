@@ -66,6 +66,9 @@
       "options": {
         "lintFilePatterns": ["apps/app1/**/*.{ts,tsx,js,jsx}"]
       }
+    },
+    "semantic-release": {
+      "executor": "@theunderscorer/nx-semantic-release:semantic-release"
     }
   },
   "tags": []
